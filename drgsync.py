@@ -3,8 +3,9 @@
 import os
 import shutil
 
-xboxFolder=r"C:\Users\Jim\AppData\Local\Packages\CoffeeStainStudios.DeepRockGalactic_496a1srhmar9w\SystemAppData\wgs\000901F908B63662_882901006F2042808DB0569531F199CB\984D039726D54AD88F440C0F3556E2B1"
-steamFolder=r"C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Saved\SaveGames"
+#Simply change the folders to your paths to steam saves and xbox saves follow this post to find out where your folders are: https://www.reddit.com/r/DeepRockGalactic/comments/e7hptr/how_to_transfer_your_steam_save_to_windows_10_and/
+xboxFolder=r"C:\Path\to\folder"
+steamFolder=r"C:\Path\to\folder"
 
 def sync():
     steamFile=""
