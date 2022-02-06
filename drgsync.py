@@ -16,8 +16,7 @@ def sync():
     stime = None
     xbackNum = 0
     sbackNum = 0
-    for file in os.listdir(xboxFolder):
-            
+    for file in os.listdir(xboxFolder):    
         if "." not in file:
                 xboxFile=os.path.join(xboxFolder,file)
                 xtime = os.path.getmtime(xboxFile)
